@@ -25,7 +25,16 @@
         srcset="imagem/paisagem-m.png"
         type="image/png"
       />
-      <img src="imagem/paisagem-g.png" alt="imagem flexível" />
+      <img src="imagem/paisagem-p.png" alt="imagem flexível" />
     </picture>
+    <br>
+    <img src="imagem/paisagem-g.png"
+    srcset="imagem/paisagem-p.jpg 400w,
+    imagem/paisagem-m.png 800w,
+    imagem/paisagem-g.png 1200w" 
+
+    sizes="(max-width: 800px) 100vw, 800px"
+    
+    alt="paisagem">
   </body>
 </html>
