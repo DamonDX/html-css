@@ -17,3 +17,19 @@ h1#principal {
 h2 {
     color: green;
 }
+
+.basico {
+    color: green;
+}
+
+.intermediario {
+    color: chocolate;
+}
+
+.basico {
+    color: red;
+}
+
+.destaque {
+    background-color: rgb(209, 223, 23);
+}
